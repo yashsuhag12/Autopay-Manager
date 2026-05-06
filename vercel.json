@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd SubFlow && npm install && npm run build",
+  "outputDirectory": "SubFlow/dist",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
